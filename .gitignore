@@ -1,16 +1,14 @@
-# Compiled class file
-*.class
+# Gradle files
+.gradle/
+build/
 
-# Log file
-*.log
+# Compiled class files
+bin/
+out/
+build/
+**/build/
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,6 +17,31 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# Mac OS files
+.DS_Store
+
+# Spring Boot specific
+spring.log
+
+# Thumbnails created by windows
+Thumbs.db
+
+# Files created by JetBrains IDEs
+*.idea/
+*.iml
+*.iws
+
